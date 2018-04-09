@@ -2,6 +2,7 @@
 import os
 import sys
 
+print("我做了修改")
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "snippets.settings")
     try:
